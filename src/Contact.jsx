@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   const contactInfo = [
-    { name: 'Mohsin Hameedi', email: 'designspectracreations@gmail.com', whatsapp: '+923184439893' },
-    { name: 'Waidat Ali', email: 'aliwahdat428@gmail.com', whatsapp: '+923471239954' }
+    { name: 'Mohsin Hameedi', email: 'mohsinahmedhameedi@gmail.com', whatsapp: '+923184439893' },
+    { name: 'Wahdat Ali', email: 'aliwahdat428@gmail.com', whatsapp: '+923471239954' }
   ];
 
   const handleEmail = (email) => {
@@ -23,7 +23,7 @@ const Contact = () => {
       <main className="flex-grow flex flex-col items-center justify-center px-4 py-10">
         <div className="text-center mb-10">
           <h2 className="text-2xl text-white font-semibold mb-4">Connect with Us</h2>
-          <p className="text-lg text-white max-w-xl">Reach out to us via email or WhatsApp. Click on the buttons below to contact Mohsin Hameedi or Waidat Ali.</p>
+          <p className="text-lg text-white max-w-xl">Reach out to us via email or WhatsApp. Click on the buttons below to contact Mohsin Hameedi or Wahdat Ali.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-lg">
